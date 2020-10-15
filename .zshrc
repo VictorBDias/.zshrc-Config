@@ -1,16 +1,17 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-#Teste2
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/victor/.oh-my-zsh"
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export ANDROID_HOME=~/Documents/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:~/Downloads/android-studio/bin
-export PATH=~/usr/local/bin/react-native:$PATH
+export PATH=$PATH:~/Documents/android-studio/bin
+export PATH="$(yarn global bin):$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
