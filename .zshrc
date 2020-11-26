@@ -10,6 +10,7 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:~/Documents/android-studio/bin
+export PATH=$PATH:~/Documents/mongodb/bin
 export PATH="$(yarn global bin):$PATH"
 export PATH="$HOME/.npm-global/bin:$PATH"
 
