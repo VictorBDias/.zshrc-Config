@@ -124,7 +124,7 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinitzsh
 ### End of Zinit's installer chunk
 
-zplugin light zdharma/fast-syntax-highlighting
+zinit light zdharma-continuum/fast-syntax-highlighting
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-history-substring-search
 zplugin light zsh-users/zsh-completions
